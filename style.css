@@ -7,7 +7,7 @@ body{
     font-family: Roboto, sans-serif;
 }
 
-.header {
+.header, .main-info {
     padding-left: 200px;
     padding-right: 200px;
 }
@@ -20,7 +20,6 @@ body{
     padding-bottom: 18px;
 
     background-color: #1F2937;
-    color: white;
 }
 
 .logo{
@@ -44,4 +43,23 @@ a {
     color: #E5E7EB;
 }
 
+.main-info {
+    background-color: #1F2937;
+}
 
+h1 {
+    margin: 0;
+    
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+}
+
+p {
+    color: #E5E7EB;
+}
