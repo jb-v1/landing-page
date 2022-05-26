@@ -46,7 +46,25 @@ a {
 
 .main-info {
     background-color: #1F2937;
-    height: 470px;
+    height: 250px;
+    padding-top: 110px;
+    padding-bottom: 110px;
+
+    display: flex;
+}
+
+.right-side {
+    flex: 1;
+}
+
+.img-placeholder {
+    background-color: #e5e7eb6c;
+    color: #E5E7EB;
+    flex: 1;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 h1 {
@@ -54,6 +72,17 @@ h1 {
     color: #F9FAF8;
     font-size: 48px;
     font-weight: 800;
+}
+
+button {
+    border: none;
+    border-radius: 8px;
+    padding: 8px 34px;
+    margin: 8px 0;
+    
+    font-size: 18px;
+    color: #F9FAF8;
+    background-color: #3882F6;
 }
 
 .footer {
@@ -68,6 +97,7 @@ h1 {
 }
 
 p {
+    margin: 0;
     color: #E5E7EB;
 }
 
