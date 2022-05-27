@@ -79,7 +79,7 @@ button {
     border-radius: 8px;
     padding: 8px 34px;
     margin: 8px 0;
-    
+
     font-size: 18px;
     color: #F9FAF8;
     background-color: #3882F6;
@@ -99,6 +99,31 @@ button {
 p {
     margin: 0;
     color: #E5E7EB;
+}
+
+h2 {
+    text-align: center;
+}
+
+.more-info {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.blue-img {
+    border: solid 4px #3882F6;
+    border-radius: 16px;
+    width: 160px;
+    height: 160px;
+}
+
+.info-container {
+    max-width: 160px;
+}
+
+.subtext {
+    text-align: justify;
 }
 
 .content {
