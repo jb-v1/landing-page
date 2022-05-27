@@ -102,17 +102,23 @@ p {
 }
 
 h2 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
     text-align: center;
+    margin: 50px;
 }
 
 .more-info {
     display: flex;
     justify-content: center;
-    gap: 40px;
+    gap: 50px;
+    margin-bottom: 136px;
 }
 
 .blue-img {
     border: solid 4px #3882F6;
+    box-sizing: border-box;
     border-radius: 16px;
     width: 160px;
     height: 160px;
@@ -124,6 +130,14 @@ h2 {
 
 .subtext {
     text-align: justify;
+    text-align-last: center;
+    color: #1f2937bd;
+    font-size: 17px;
+    margin-top: 10px;
+}
+
+.quote {
+    background-color: #E5E7EB;
 }
 
 .content {
